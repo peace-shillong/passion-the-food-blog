@@ -1,0 +1,2 @@
+icon;
+images for slideshow :slide-1.png - 3.png
