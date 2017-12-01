@@ -1,0 +1,3 @@
+USED: jquery.min.js framewrok
+responsiveslides.js for the slide show
+mystellarnav.min.js for the mobile friendly sub menu - press on label/row to display submenus
