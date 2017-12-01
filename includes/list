@@ -1,0 +1,6 @@
+##USED:
+Header and footer
+
+Please note all links to js and css are set to dist/css/filename.css and dist/js/filename.js
+so all the files should be in the same location as the index.php file in order to load the css and js file nicely
+but once you load the index.php file all the other files will be loaded automativally so you need not worry about this.
