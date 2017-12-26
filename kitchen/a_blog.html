@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<title>Passion | Shillong | Passion-gnb</title>
+	<link href="https://fonts.googleapis.com/css?family=Exo+2:300,400" rel="stylesheet">
+	<!-- required -->	
+	<link rel="stylesheet" type="text/css" media="all" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" media="all" href="../dist/css/stellarnav.min.css">
+	<link rel="stylesheet" type="text/css" media="all" href="../dist/css/skeleton.css">
+	<link rel="stylesheet" type="text/css" media="all" href="../dist/css/normalize.css">
+	<link rel="stylesheet" type="text/css" media="all" href="../dist/css/custom.css">
+
+<style>
+/* styles for this sample only */
+*{ margin: 0; padding: 0; }
+body { height: 100%; height: 100%; font-size: 16px; font-family: 'Exo 2', sans-serif; background: #111; font-weight: 300;color:white; }
+.header { text-align: center; }
+.header a { padding: 50px 0; display: block; font-size: 48px; text-decoration: none; color: #555; }
+.footer { text-align: left; padding: 20px 0; display: block; font-size: 14px; color: #efefef;background-color:#80020a; }
+@media only screen and (max-width : 1000px) {
+	.stellarnav > ul > li > a { padding: 2px 2px; }
+}
+.content{margin-left:15%;}
+@media only screen and (min-width : 1000px) {
+	.content{margin-top:20%;}
+}
+@media screen and (max-width : 1000px) {
+	.content{margin-top:30%;}
+}
+@media screen and (max-width : 800px) {
+	.content{margin-top:40%;}
+}
+
+@media screen and (max-width : 600px) {
+	.content{margin-top:60%;}
+}
+
+@media screen and (max-width : 400px) {
+	.content{margin-top:100%;}
+}
+/* styles for this sample only */
+</style>
+
+</head>
+<body>
+	<div style="top:0;width:100%;position:fixed;background-color:#111;color:red">
+	<div class="header" >
+		 <a href="#" style="font-size:24px;color:#80020a;text-align:left;margin-left:15%;"><img src="../dist/img/logo.jpg" style="float:left"/> <br/><b>&nbsp PASSION, GRILLS AND BBQ</b></a>
+	</div>
+	<div id="main-nav" class="stellarnav" style="background-color:#80020a;font-size:14px;color:white;">
+		<ul style="margin-left:auto;">
+			<li><a href="">Dashboard</a></li>
+			<li><a href="">Blog</a></li>
+			<li><a href="">Gallery</a></li>
+			<li><a href="">Recipe Index</a></li>
+			<li><a href="">Logout</a></li>
+		</ul>
+	</div><!-- .stellar-nav -->
+	</div>
+	<!-- required -->
+	<div class="content">
+	
+	<div class="row ">
+	<div class="ten columns">	
+	<div class="hero" style="margin-top:50px;">
+	<h4>BLOG POSTS</h4>	
+	<a  href="a_blog.html"><button>New Post</button></a><br/><br/>
+	<table class="u-full-width">
+	<tr><td>Sl. No.</td><td>Title</td><td></td><td>Action</td><td></td><td>Date Published</td><td>Comments</td></tr>
+	<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+	<tr><td>1.</td><td>Second Post Traditiomnal Dish braksef</td><td><a href="">View</a></td><td><a href="">Edit</a></td><td><a href="">Remove</a></td><td>12/09/2017</td><td>1</td></tr>
+	<tr><td>2.</td><td>First Post Traditiomnal Dish braksef</td><td> View </td><td>Edit</td><td>Remove</td><td>12/09/2017</td><td>1</td></tr>
+	</table>
+	</div>
+	</div>
+	</div>	
+	
+	
+	
+	</div><!--END OF FIRST CONTENT-->	
+		
+	<div class="header" style="margin-top:-50px">
+		 <a href="#" style="font-size:24px;color:#80020a;text-align:left;margin-left:15%;"><br/>&nbsp PASSION, GRILLS AND BBQ</a>
+	</div>
+	<div class="footer" >
+		 <span style="margin-left:15%;">&copy <?php echo date('Y');?> by Passion, Grills and BBQ</span>
+	</div>
+	<script type='text/javascript' src="dist/js/jquery.min.js"></script>
+	<script type="text/javascript" src="dist/js/mystellarnav.min.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			jQuery('.stellarnav').stellarNav({
+				theme: 'light'
+				
+			});
+		});
+	</script>
+	
+	<!--IMG-->
+	<script src="dist/js/responsiveslides.min.js"></script>
+	<script>
+	$(function() {
+		$(".rslides").responsiveSlides();
+	});
+	</script>
+</body>
+</html>
