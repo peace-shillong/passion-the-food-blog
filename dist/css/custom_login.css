@@ -1,0 +1,33 @@
+/* styles for this sample only */
+*{ margin: 0; padding: 0; }
+body { height: 100%; height: 100%; font-size: 16px; font-family: 'Exo 2', sans-serif; background: #111; font-weight: 300;color:white; }
+.header { text-align: center; }
+.header a { padding: 20px 0;  display: block; font-size: 48px; text-decoration: none; color: #555; }
+.footer { text-align: left; padding: 20px 0; display: block; font-size: 14px; color:#efefef; background-color:#80020a; position:absolute; bottom:0;width:100%;}
+.text-center {text-align:center;}
+.content{margin-left:15%;color:white;}
+.login-bg{background-color:#efefef;color:#222;padding:4%;margin:0px;border-radius:5px;text-align:center;margin-top:4%;}
+input[type=submit]{background-color:#80020a;color:white;}
+input[type=submit]:hover{background-color:red;color:white;}
+input[type=submit]:visited,input[type=submit]:link,input[type=submit]:active{background-color:#80020a;color:white;}
+@media only screen and (min-width : 1000px) {
+	.content{margin-top:0%;}
+	
+}
+@media screen and (max-width : 1000px) {
+	.content{margin-top:0%;}
+}
+@media screen and (max-width : 800px) {
+	.content{margin-top:0%; }
+}
+
+@media screen and (max-width : 600px) {
+	.content{margin-top:0%;}
+}
+
+@media screen and (max-width : 400px) {
+	.content{margin-top:0%;}
+	.footer {font-size:13px;}
+	.login-bg{margin-left:-10%;padding-bottom:10%;}	
+}
+/* styles for this sample only */

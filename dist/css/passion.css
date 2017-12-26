@@ -1,0 +1,28 @@
+/* styles for this sample only */
+*{ margin: 0; padding: 0; }
+body { height: 100%; height: 100%; font-size: 16px; font-family: 'Exo 2', sans-serif; background: #111; font-weight: 300;color:white; }
+.header { text-align: center; }
+.header a { padding: 50px 0; display: block; font-size: 48px; text-decoration: none; color: #555; }
+.footer { text-align: left; padding: 20px 0; display: block; font-size: 14px; color: #efefef;background-color:#80020a; }
+@media only screen and (max-width : 1000px) {
+	.stellarnav > ul > li > a { padding: 2px 2px; }
+}
+.content{margin-left:15%;}
+@media only screen and (min-width : 1000px) {
+	.content{margin-top:20%;}
+}
+@media screen and (max-width : 1000px) {
+	.content{margin-top:30%;}
+}
+@media screen and (max-width : 800px) {
+	.content{margin-top:40%;}
+}
+
+@media screen and (max-width : 600px) {
+	.content{margin-top:60%;}
+}
+
+@media screen and (max-width : 400px) {
+	.content{margin-top:100%;}
+}
+/* styles for this sample only */
