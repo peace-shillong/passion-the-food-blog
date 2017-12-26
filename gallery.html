@@ -1,91 +1,70 @@
-<style>  
-      ul.row {
-          padding:0 0 0 0;
-          margin:0 0 10px 0;
-      }
-      .pics ul li {
-          list-style:none;
-          margin-bottom:10px;
-      }
-      ul.row li img {
-          cursor: pointer;
-      }
-     
-    .controls{
-        width:50px;
-        display:block;
-        font-size:13px;
-		color:red;
-        padding-top:8px;
-        font-weight:bold;
-    }
-	a:hover.controls {color:white;}
-    .next {
-        float:right;
-        text-align:right;
-    }    
-
-	  
- /* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 99999; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-	border-radius:5px;
-}
-
-/* Modal Content */
-.modal-content {
-    position: relative;
-    background-color: #222;
-    margin: auto;
-    padding: 0;
-    border: 1px solid #222;
-    width: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
-    animation-duration: 0.4s;
-	border-radius:5px;
+<html>
+<head>
+<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<title>Passion | Shillong | Passion-gnb</title>
+	<link href="https://fonts.googleapis.com/css?family=Exo+2:300,400" rel="stylesheet">
+	<!-- required -->		
+	<link rel="stylesheet" type="text/css" media="all" href="dist/css/stellarnav.min.css">
+	<link rel="stylesheet" type="text/css" media="all" href="dist/css/skeleton.css">
+	<link rel="stylesheet" type="text/css" media="all" href="dist/css/normalize.css">
+	<link rel="stylesheet" type="text/css" media="all" href="dist/css/custom.css">
+	<link rel="stylesheet" type="text/css" media="all" href="dist/css/passion.css">
+	<!--icon-->
+	<link rel="stylesheet" type="text/css" media="all" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--GALLERY-->
+	<link rel="stylesheet" type="text/css" media="all" href="dist/css/gallery.css">
+	</head>
+	<body>
 	
-}
-
-/* Add Animation */
-@-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0} 
-    to {top:0; opacity:1}
-}
-
-@keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
-}
-
-
-
-.modal-header {
-    padding: 10px 16px;
-    background-color: #111;
-    color: white;
-	border-radius:5px;
-}
-
-.modal-body {padding: 6px 16px;color:black;border-radius:5px;}
-
-.img-responsive{height: auto;width:100%;}
-	</style>
-	<link href="dist/css/skeleton.css" rel="stylesheet" type="text/css" />	
-	
+	<div style="top:0;width:100%;position:fixed;background-color:#111;color:red">
+	<div class="header" >
+		 <a href="#" style="font-size:24px;color:#80020a;text-align:left;margin-left:15%;"><img src="dist/img/logo.jpg" style="float:left"/> <br/><b>&nbsp PASSION, GRILLS AND BBQ</b></a>
+	</div>
+	<div id="main-nav" class="stellarnav" style="background-color:#80020a;font-size:14px;color:white;">
+		<ul style="margin-left:auto;">
+			<li><a href="#">Home</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a>Recipe Index</a>
+		    	<ul>
+		    		<li><a href="#">Breakfast</a>
+		    			<ul>
+				    		<li><a href="recipe-index.html">Traditional</a></li>				    		
+				    		<li><a href="#">World Cuisine</a></li>				    		
+		    			</ul>
+		    		</li>
+		    		
+		    		<li><a href="#">Lunch</a>
+		    			<ul>
+				    		<li><a href="#">Traditional</a></li>				    		
+				    		<li><a href="#">World Cuisine</a></li>				    		
+		    			</ul>
+		    		</li>
+					
+					<li><a href="#">Dinner</a>
+		    			<ul>
+				    		<li><a href="#">Traditional</a></li>				    		
+				    		<li><a href="#">World Cuisine</a></li>				    		
+		    			</ul>
+		    		</li>
+		    	</ul>
+		    </li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="#">More</a>
+				<ul>
+				<li><a href="contact_us.html">Contact Us</a></li>
+				</ul>
+			</li>
+			
+		    <li> passionfjmylliem@gmail.com | +919774007104/+918974802769 </li>
+		    <li><a href="#"><img src="dist/img/insa.png" /></a></li>
+			<li><a href="#"><img src="dist/img/fba.png" /></a></li>
+		</ul>
+	</div><!-- .stellar-nav -->
+	</div>
 		
+		<div class="content gallery">
 		<div class="row">
 			<div class="twelve columns text-center"><h2 class="intro-text">Picture Gallery</h2></div>
 		</div>
@@ -93,7 +72,6 @@
 			<div class="twelve columns" style="margin-top:-30px;"><hr/>
 			</div>
 		</div>
-		<div class="container">
 			<div class="row">
 				<div class="twelve columns pics">
 				   <ul class="row">
@@ -124,6 +102,14 @@
 				</div>				
 			</div>	
 		</div>	
+		
+		
+	<div class="header" style="margin-top:-50px">
+		 <a href="#" style="font-size:24px;color:#80020a;text-align:left;margin-left:15%;"><br/>&nbsp PASSION, GRILLS AND BBQ</a>
+	</div>
+	<div class="footer" >
+		 <span style="margin-left:15%;">&copy <?php echo date('Y');?> by Passion, Grills and BBQ</span>
+	</div>
 			<!-- Modal for Photos-->
 	<div class="modal fade" id="picModal" tabindex="-1" role="dialog" aria-labelledby="picModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -136,10 +122,21 @@
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
-	
+	</body>
 	<!--Script for modal-->
-	<script src="dist/js/jquery.js"></script>
+	<script src="dist/js/jquery.min.js"></script>
 	<script src="dist/js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript" src="dist/js/mystellarnav.min.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			jQuery('.stellarnav').stellarNav({
+				theme: 'light'
+				
+			});
+		});
+	</script>
+	
 	
 	<script>
   (function(){
@@ -228,5 +225,5 @@
 
   })();
   </script>
-  
+  </html>
   
