@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<title>Passion | Shillong | Passion-gnb</title>
+	<link href="https://fonts.googleapis.com/css?family=Exo+2:300,400" rel="stylesheet">
+	<!-- required -->		
+	<link rel="stylesheet" type="text/css" media="all" href="dist/css/stellarnav.min.css">
+	<link rel="stylesheet" type="text/css" media="all" href="dist/css/skeleton.css">
+	<link rel="stylesheet" type="text/css" media="all" href="dist/css/normalize.css">
+	<link rel="stylesheet" type="text/css" media="all" href="dist/css/custom.css">
+	<link rel="stylesheet" type="text/css" media="all" href="dist/css/passion.css">
+	<link rel="stylesheet" type="text/css" media="all" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div style="top:0;width:100%;position:fixed;background-color:#111;color:red">
+	<div class="header" >
+		 <a href="#" style="font-size:24px;color:#80020a;text-align:left;margin-left:15%;"><img src="dist/img/logo.jpg" style="float:left"/> <br/><b>&nbsp PASSION, GRILLS AND BBQ</b></a>
+	</div>
+	<div id="main-nav" class="stellarnav" style="background-color:#80020a;font-size:14px;color:white;">
+		<ul style="margin-left:auto;">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a>Recipe Index</a>
+		    	<ul>
+		    		<li><a href="#">Breakfast</a>
+		    			<ul>
+				    		<li><a href="recipe-index.html">Traditional</a></li>				    		
+				    		<li><a href="#">World Cuisine</a></li>				    		
+		    			</ul>
+		    		</li>
+		    		
+		    		<li><a href="#">Lunch</a>
+		    			<ul>
+				    		<li><a href="#">Traditional</a></li>				    		
+				    		<li><a href="#">World Cuisine</a></li>				    		
+		    			</ul>
+		    		</li>
+					
+					<li><a href="#">Dinner</a>
+		    			<ul>
+				    		<li><a href="#">Traditional</a></li>				    		
+				    		<li><a href="#">World Cuisine</a></li>				    		
+		    			</ul>
+		    		</li>
+		    	</ul>
+		    </li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="#">More</a>
+				<ul>
+				<li><a href="contact_us.html">Contact Us</a></li>
+				</ul>
+			</li>
+			
+		    <li> passionfjmylliem@gmail.com | +919774007104/+918974802769 </li>
+		    <li><a href="#"><img src="dist/img/insa.png" /></a></li>
+			<li><a href="#"><img src="dist/img/fba.png" /></a></li>
+		</ul>
+	</div><!-- .stellar-nav -->
+	</div>
+	
+	
+	<!--IMG Slider-->
+	<link href="dist/css/responsiveslides.css" rel="stylesheet" type="text/css" />	
+	<!-- required -->
+	<div class="content">
+	
+	<div class="row">
+	<div class="twelve columns">
+	<ul class="rslides" style="z-index:-9999;">
+      <li><img src="dist/images/slide-1.jpg"/> </li>         
+      <li> <img src="dist/images/slide-2.jpg" /> </li> 
+      <li> <img src="dist/images/slide-3.jpg"/> </li>        
+	  <li> <img src="dist/images/slide-4.jpg"/> </li>        
+	  <li> <img src="dist/images/slide-5.jpg"/> </li>     
+	  <li> <img src="dist/images/slide-6.jpg"/> </li>        	  
+    </ul>
+	<br/>
+	</div>	
+	</div>
+	<div class="row ">
+	<div class="ten columns">
+	<div class="hero">
+	<h1 class="hero-heading">ABOUT US</h1>	
+	<p>Let me start by saying that the sole purpose I made this blog is because I'm a foodie, in fact, 
+	I come from a family where our passion is cooking and enjoying food. It's also the reason why I've 
+	opened up a food joint so I can share and serve our cuisine along with my sons. 
+	I love to experiment with cooking, so whatever you have in mind you can ask and inquire and we
+	can share to the best of our abilities.</p>
+	<h5>OUR PASSION, YOUR SATISFACTION!</h5>
+		<a href="contact_us.html"><button>Let's Connect</button></a>
+	</div>
+	</div>
+	</div>	
+	</div><!--END OF FIRST CONTENT-->	
+		
+	<div class="header" style="margin-top:-50px">
+		 <a href="#" style="font-size:24px;color:#80020a;text-align:left;margin-left:15%;"><br/>&nbsp PASSION, GRILLS AND BBQ</a>
+	</div>
+	<div class="footer" >
+		 <span style="margin-left:15%;">&copy <?php echo date('Y');?> by Passion, Grills and BBQ</span>
+	</div>
+	<script type='text/javascript' src="dist/js/jquery.min.js"></script>
+	<script type="text/javascript" src="dist/js/mystellarnav.min.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			jQuery('.stellarnav').stellarNav({
+				theme: 'light'
+				
+			});
+		});
+	</script>
+	
+	<!--IMG-->
+	<script src="dist/js/responsiveslides.min.js"></script>
+	<script>
+	$(function() {
+		$(".rslides").responsiveSlides();
+	});
+	</script>
+</body>
+</html>
