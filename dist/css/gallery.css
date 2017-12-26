@@ -1,0 +1,95 @@
+/*Custom .gallery class for passion*/
+.gallery{margin-right:10%;margin-top:20%;}
+@media screen and (max-width : 800px) {
+	.gallery{margin-top:40%;}
+}
+
+@media screen and (max-width : 600px) {
+	.gallery{margin-top:60%;}
+}
+
+@media screen and (max-width : 400px) {
+	.gallery{margin-top:120%;}
+}
+
+ul.row {
+          padding:0 0 0 0;
+          margin:0 0 10px 0;
+      }
+      .pics ul li {
+          list-style:none;
+          margin-bottom:10px;
+      }
+      ul.row li img {
+          cursor: pointer;
+      }
+     
+    .controls{
+        width:50px;
+        display:block;
+        font-size:13px;
+		color:red;
+        padding-top:8px;
+        font-weight:bold;
+    }
+	a:hover.controls {color:white;}
+    .next {
+        float:right;
+        text-align:right;
+    }    
+
+	  
+ /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 99999; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	border-radius:5px;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #222;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #222;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+	border-radius:5px;
+	
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+
+
+.modal-header {
+    padding: 10px 16px;
+    background-color: #111;
+    color: white;
+	border-radius:5px;
+}
+
+.modal-body {padding: 6px 16px;color:black;border-radius:5px;}
